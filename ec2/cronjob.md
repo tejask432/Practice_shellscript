@@ -20,6 +20,6 @@ example:
 
 Commmand to run the job daily at 8am except sunday
 
-0 8 * * 0-6 /home/ubuntu/test.sh >/dev/job.logs 2>&1
+`0 8 * * 0-6 /home/ubuntu/test.sh >/dev/job.logs 2>&1`
 
 ______________________________________________________________
